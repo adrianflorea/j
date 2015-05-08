@@ -28,3 +28,6 @@ negativeOne =. * __
 NB. there are 10 types of people in the world: 
 NB. those who understand binary, and those who don't
 two =. #. 1 0
+
+NB. more examples in "J Phrases" book, chapter "8A. Numbers And Counting"
+NB. http://www.jsoftware.com/docs/help803/phrases/numbers_counting.htm
