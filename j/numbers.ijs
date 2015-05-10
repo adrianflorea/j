@@ -1,3 +1,13 @@
+NB. "Execution proceeds from right to left, except that 
+NB. when a right parenthesis is encountered, 
+NB. the segment enclosed by it and its matching left parenthesis is executed, 
+NB. and its result replaces the entire segment and its enclosing parentheses" - J Dictionary
+
+NB. 3 times the quantity 2-1 (there is no verb precedence)
+three =. 3*2-1
+NB. the quantity 3 times 2, subtract 1
+five =. (3*2)-1
+
 imaginaryUnitSquared =. _1
 imaginaryUnit =. 0j1
 
