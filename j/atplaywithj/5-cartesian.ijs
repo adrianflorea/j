@@ -5,4 +5,5 @@ CP=: {@;"1~
 
 NB. R.K.W. Hui, K.E. Iverson, "J Dictionary",
 NB. Jsoftware (2002), p. 279
+NB. http://www.jsoftware.com/help/dictionary/d520.htm
 CP=: {@(,&<)
