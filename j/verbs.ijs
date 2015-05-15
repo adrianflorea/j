@@ -22,3 +22,15 @@ NB. x   y x   y
 
 NB. Hook
 NB. sequence of two verbs
+NB. Monadic hook (g h) y <-> y g (h y)
+NB.   g
+NB.  / \
+NB. y   h
+NB.     |
+NB.     y
+NB. Dyadic hook x (g h) y <-> x g (h y)
+NB.   g
+NB.  / \
+NB. x   h
+NB.     |
+NB.     y
