@@ -8,7 +8,7 @@ NB. AND OR tables
 ] (*./~ ; +./~) 0 1
 
 NB. Insert /
-NB. Mean of the first 10 positive numbers
+NB. Mean (monadic fork) of the first 10 positive numbers
 ] (+/ % #) >:i.10
 
 NB. Prefix \
