@@ -19,3 +19,6 @@ NB.    /   \
 NB.   f     h
 NB.  / \   / \
 NB. x   y x   y
+
+NB. Hook
+NB. sequence of two verbs
