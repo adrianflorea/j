@@ -15,6 +15,9 @@ NB. ,y gives a list of the atoms of y in "normal" order
 
 NB. Box <
 
+NB. Reflexive ~
+NB. u~ y <-> y u y
+
 NB. R.K.W. Hui, K.E. Iverson, "J Dictionary",
 NB. Jsoftware (2002), p. 73
 NB. http://www.jsoftware.com/help/dictionary/intro27.htm
