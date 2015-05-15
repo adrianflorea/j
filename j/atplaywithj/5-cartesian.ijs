@@ -17,7 +17,7 @@ NB. Box <
 
 NB. R.K.W. Hui, K.E. Iverson, "J Dictionary",
 NB. Jsoftware (2002), p. 73
-http://www.jsoftware.com/help/dictionary/intro27.htm
+NB. http://www.jsoftware.com/help/dictionary/intro27.htm
 CP=: {@;
 
 NB. R.K.W. Hui, K.E. Iverson, "J Dictionary",
