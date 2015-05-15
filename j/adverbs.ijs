@@ -5,14 +5,14 @@ NB. has a verb as its result
 NB. Reflex ~
 
 NB. AND OR tables
-(*./~ ; +./~) 0 1
+] (*./~ ; +./~) 0 1
 
 NB. Insert /
 NB. Mean of the first 10 positive numbers
-(+/ % #) 1+i.10
+] (+/ % #) 1+i.10
 
 NB. Prefix \
-</\ 0 0 0 1 0 1 1 0
+] </\ 0 0 0 1 0 1 1 0
 
 NB. Suffix \.
-<\. i.4
+] <\. i.4
