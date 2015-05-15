@@ -1,3 +1,4 @@
+NB. verbs can be "joined" by conjunctions to produce additional verbs
 NB. dyadic
 NB. apply to noun or verb arguments
 NB. executed before verbs
