@@ -13,6 +13,11 @@ $ 2 0 $ 1 5
 NB. Rank operator
 a =. i. 4 3 2
 NB. <"k applies < to each cell of rank k
+NB. n+1 unique ways to map a function using the rank operator
+NB. rank-n array = rank-(n-p) array of rank-p hyperpages (0 <= p <= n)
+NB. <"n+p <-> <"n (p > 0)
+NB. <"n+p <-> <"p (p < 0)
+NB. <"p <-> <"0 (p <= -n)
 <"3 a NB. <"(#$a) a <-> <a
 <"2 a NB. list of pages
 <"1 a NB. page of lists
