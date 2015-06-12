@@ -30,3 +30,10 @@ NB. Laminate
 
 NB. Stitch
 ((2*i.3) ,. (1+2*i.3)) = i. 3 2
+
+NB. Rotate Left
+3 |. i.10
+_3 |. i.10
+
+NB. Shift Left
+3 |.!.11 i.10
