@@ -3,6 +3,7 @@ $ 'ciao'
 # 'ciao' NB. Tally
 $ i. 4 2
 #$ i. 4 2 NB. rank
+# i. 4 2
 NB. Shape
 10 $ i. 4 2
 0 $ 42
