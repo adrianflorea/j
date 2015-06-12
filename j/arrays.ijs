@@ -50,3 +50,5 @@ NB. -: has infinite rank
 NB. = fail if the shapes of x and y do not agree
 (i.10) -: i.100
 
+NB. Enfile
+, i.4 2
