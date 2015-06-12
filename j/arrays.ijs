@@ -1,6 +1,6 @@
 NB. Shape Of
 $ 'ciao'
-# 'ciao' NB. Tally
+# 'ciao' NB. Tally (number of items)
 $ i. 4 2
 #$ i. 4 2 NB. rank
 # i. 4 2
