@@ -1,9 +1,13 @@
 NB. Shape Of
 $ 'ciao'
+# 'ciao' NB. Tally
 $ i. 4 2
+#$ i. 4 2 NB. rank
 NB. Shape
 10 $ i. 4 2
 0 $ 42
+NB. if a verb can be invoked dyadically, it will be invoked dyadically
+$ 2 0 $ 1 5
 
 NB. From
 4 _2 { i. 6 7
@@ -74,4 +78,3 @@ NB. Ravel (Enfile)
 
 NB. Transpose
 |: i. 4 2
-
