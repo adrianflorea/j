@@ -25,6 +25,15 @@ NB. Take
 12 {. 2 0 1 5
 _12 {. 2 0 1 5
 
+NB. Head
+{. 2 0 1 5
+NB. Tail
+{: 2 0 1 5
+NB. Behead
+}. 2 0 1 5
+NB. Curtail
+}: 2 0 1 5
+
 NB. Laminate
 (2*i.3),:(1+2*i.3)
 
@@ -45,10 +54,17 @@ NB. Sort Up Using (linear time for most "keys" argument)
 NB. Sort Down (see Reflexive u~ y <-> y u y)
 \:~ i.5
 
+NB. Reverse
+|. i.5
+
 NB. Match
 NB. -: has infinite rank
 NB. = fail if the shapes of x and y do not agree
 (i.10) -: i.100
 
-NB. Enfile
+NB. Ravel (Enfile)
 , i.4 2
+
+NB. Transpose
+|: i. 4 2
+
