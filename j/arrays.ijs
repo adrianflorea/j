@@ -10,6 +10,14 @@ NB. Shape
 NB. if a verb can be invoked dyadically, it will be invoked dyadically
 $ 2 0 $ 1 5
 
+NB. Rank operator
+a =. i. 4 3 2
+NB. <"k applies < to each cell of rank k
+<"3 a NB. <"(#$a) a <-> <a
+<"2 a NB. list of pages
+<"1 a NB. page of lists
+<"0 a NB. cube of scalars
+
 NB. From
 4 _2 { i. 6 7
 (<4 2) { i. 6 7
