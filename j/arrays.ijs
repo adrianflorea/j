@@ -1,3 +1,10 @@
+NB. Shape Of
+$ 'ciao'
+$ i. 4 2
+NB. Shape
+10 $ i. 4 2
+0 $ 42
+
 NB. From
 4 _2 { i. 6 7
 (<4 2) { i. 6 7
