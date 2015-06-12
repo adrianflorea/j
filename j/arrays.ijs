@@ -37,3 +37,16 @@ _3 |. i.10
 
 NB. Shift Left
 3 |.!.11 i.10
+
+NB. Sort Up Using (linear time for most "keys" argument)
+(i. 4 2) /: 2 0 1 5
+(i.3) /: 2 0 , 1 5 ,: 0 6
+
+NB. Sort Down (see Reflexive u~ y <-> y u y)
+\:~ i.5
+
+NB. Match
+NB. -: has infinite rank
+NB. = fail if the shapes of x and y do not agree
+(i.10) -: i.100
+
