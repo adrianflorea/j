@@ -9,3 +9,8 @@ NB. From
 NB. Copy
 (i.4)#i.4 2
 4#i.4 2
+
+NB. Remove
+(i.4 2)-.4 5
+i.4 2-.4 5
+
