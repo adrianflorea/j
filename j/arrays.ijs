@@ -31,6 +31,11 @@ NB. From
 3 {"1 i. 6 7
 ((<'');3){i. 6 7
 
+NB. R. Stokes, "Learning J", 2010, pp. 84-85
+NB. 6.2.4 Selections on One Axis
+NB. http://www.jsoftware.com/help/learning/06.htm
+(<(<0 3),(<0 6)) { (i.4 7)
+
 NB. Copy
 (i.4)#i.4 2
 4#i.4 2
