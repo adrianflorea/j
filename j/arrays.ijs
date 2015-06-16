@@ -40,6 +40,11 @@ NB. http://www.jsoftware.com/help/learning/06.htm
 (<(<2),(<a:)) { i.4 7 NB. a boxed empty list is abbreviated by a:
 (<<<5) { i.10 NB. http://stackoverflow.com/questions/30364721/how-to-remove-an-element-from-a-list-in-j-by-index
 
+NB. R. Stokes, "Learning J", 2010, pp. 89-90
+NB. 6.3.1 Amending with an Index
+NB. http://www.jsoftware.com/help/learning/06.htm
+42 (< 1 1)} 3 3 $ i.9
+
 NB. Copy
 (i.4)#i.4 2
 4#i.4 2
