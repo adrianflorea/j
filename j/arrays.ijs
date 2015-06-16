@@ -35,8 +35,8 @@ NB. From
 NB. R. Stokes, "Learning J", 2010, pp. 84-87
 NB. 6.2.4-6
 NB. http://www.jsoftware.com/help/learning/06.htm
-(<(<0 3),(<0 6)) { (i.4 7) Nb. selects the corners
-(<(< 1 2), (<(< 0 6))) { i.4 7 NB. selects array's core
+(<(<0 3),(<0 6)) { (i.4 7) NB. selects the corners ((SuAx (Sel r), (Sel c)) { A)
+(<(< 1 2), (<(< 0 6))) { i.4 7 NB. selects array's core ((SuAx (Sel r), (Sel (Excl c))) { A)
 (<(<2),(<<0$0)) { i.4 7 NB. selects the 3rd row (by excluding nothing 0$0)
 (<(<2),(<a:)) { i.4 7 NB. a boxed empty list is abbreviated by a:
 (<<<5) { i.10 NB. http://stackoverflow.com/questions/30364721/how-to-remove-an-element-from-a-list-in-j-by-index
@@ -50,7 +50,7 @@ NB. Copy
 (i.4)#i.4 2
 4#i.4 2
 
-NB. Remove
+NB. Remove/Less (all items of x except for those that are cells of y)
 (i.4 2)-.4 5
 i.4 2-.4 5
 
