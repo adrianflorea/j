@@ -1,8 +1,8 @@
-NB. Shape Of (the list of the count of atoms in each dimension of the argument)
+NB. Shape Of (the list of the count of atoms in each of its axes)
 $ 'ciao'
 # 'ciao' NB. Tally (number of items)
 $ i. 4 2
-#$ i. 4 2 NB. rank
+#$ i. 4 2 NB. rank (count of its axes)
 # i. 4 2
 NB. Shape
 10 $ i. 4 2
