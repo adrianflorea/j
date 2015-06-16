@@ -7,6 +7,7 @@ $ i. 4 2
 NB. Shape
 10 $ i. 4 2
 0 $ 42
+2 2 $ 2 0 1 5 { 'abcdefg' NB. Shape of Index
 NB. if a verb can be invoked dyadically, it will be invoked dyadically
 $ 2 0 $ 1 5
 
