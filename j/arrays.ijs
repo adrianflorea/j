@@ -1,4 +1,4 @@
-NB. Shape Of
+NB. Shape Of (the list of the count of atoms in each dimension of the argument)
 $ 'ciao'
 # 'ciao' NB. Tally (number of items)
 $ i. 4 2
