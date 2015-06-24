@@ -7,3 +7,6 @@ A =: i.2 3 4
 
 NB. aggregated A of shape 2 4
 +/"2 A
+
+NB. aggregated A of shape 2 4 using |: and &.
+|: +/.* &. |:+/|: A
